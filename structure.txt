@@ -1,0 +1,11 @@
+ern-app/
+├── backend/
+│   └── server.js
+├── frontend/
+│   └── src/
+│       └── App.js
+│       └── index.js
+│   └── public/
+│       └── index.html
+│   └── package.json
+├── package.json (root)

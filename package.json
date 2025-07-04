@@ -1,0 +1,6 @@
+{
+    "name": "ern-app",
+    "scripts": {
+        "start": "node backend/server.js"
+    }
+}
