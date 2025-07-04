@@ -1,10 +1,22 @@
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
+
 function App() {
   return (
-    <div>
-      <h1>This is the first deployed app on SaaS as a project</h1>
-      <p>This is built using ern stack</p>
-      <button>This is a button </button>
-    </div>
+    <Router>
+      <nav style={{ background: '#222', padding: '1rem' }}>
+        <Link to="/" style={{ color: 'white', marginRight: '1rem' }}>Home</Link>
+        <Link to="/about" style={{ color: 'white' }}>About</Link>
+      </nav>
+
+      <div style={{ padding: '2rem' }}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
