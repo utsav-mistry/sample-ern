@@ -42,3 +42,14 @@ Thumbs.db
 # Docker volumes (optional)
 # -----------------------
 *.pid
+
+
+# .gitignore
+node_modules/
+build/
+.env
+frontend/node_modules/
+frontend/build/
+backend/node_modules/
+logs/
+repos/
