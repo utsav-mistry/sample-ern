@@ -1,0 +1,55 @@
+# -----------------------
+# Node dependencies
+# -----------------------
+**/node_modules/
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# -----------------------
+# Build outputs (React)
+# -----------------------
+frontend/build/
+
+# -----------------------
+# Environment files
+# -----------------------
+.env
+.env.local
+.env.*.local
+
+# -----------------------
+# System files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Editor/IDE settings
+# -----------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.code-workspace
+
+# -----------------------
+# Docker volumes (optional)
+# -----------------------
+*.pid
+
+
+# .gitignore
+node_modules/
+build/
+.env
+frontend/node_modules/
+frontend/build/
+backend/node_modules/
+logs/
+repos/
